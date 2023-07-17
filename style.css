@@ -24,8 +24,11 @@ nav li a {
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
+    transition: 0.5s;
 }
-
+nav li a:hover{
+    color: #E02C6D;
+}
 .btn {
     display: flex;
     padding: 10px 24px;
@@ -34,8 +37,14 @@ nav li a {
     background-color: #E02C6D;
     border: none;
     color: white;
+    transition: 2s;
 }
+.btn:hover{
+    background-color:#E02C6D;
+    transform: rotate(45deg) scale(1.20);
+    color: black;
 
+}
 /* end nav */
 .banner {
     display: flex;
